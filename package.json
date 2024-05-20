@@ -1,7 +1,8 @@
 {
-  "name": "authentication",
+  "name": "@joelvaneenwyk/connector-google-oauth-ts",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "start": "node dist/app.js",
@@ -12,23 +13,24 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/cookie-session": "^2.0.43",
-    "@types/express": "^4.17.13",
+    "@types/cookie-session": "^2.0.49",
+    "@types/express": "^4.17.21",
     "@types/mongoose": "^5.11.97",
-    "@types/node": "^16.10.3",
-    "@types/passport": "^1.0.7",
-    "@types/passport-google-oauth20": "^2.0.10",
-    "nodemon": "^2.0.13",
-    "ts-node": "^10.2.1",
-    "typescript": "^4.4.3"
+    "@types/node": "^20.12.12",
+    "@types/passport": "^1.0.16",
+    "@types/passport-google-oauth20": "^2.0.16",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
   },
   "dependencies": {
-    "cookie-session": "^1.4.0",
-    "dotenv": "^10.0.0",
-    "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "mongoose": "^6.0.9",
-    "passport": "^0.5.0",
+    "cookie-session": "^2.1.0",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "passport": "^0.7.0",
     "passport-google-oauth20": "^2.0.0"
-  }
+  },
+  "packageManager": "npm@10.8.0+sha512.c21f77b91733829ec70e73cc88b5dc0a4bf685a81d252d3327d293ff7d5dd05a173f4dbeaa037600ec29696f397f14569229e5dab10b7cfc3e0a30575b8f3f8d"
 }

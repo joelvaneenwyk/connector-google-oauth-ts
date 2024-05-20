@@ -1,6 +1,8 @@
-[![blog cover image](https://www.samippoudel.com.np/images/google_oauth.png)](https://www.samippoudel.com.np/blog/google_oauth)
+<!-- markdownlint-disable MD033 -->
 
-<h2 align="center">Demo Project for <a href="https://www.samippoudel.com.np/blog/google_oauth">a blog</a></h2>
+# Google Connector
+
+> Adapted from the demo project from <a href="https://www.samippoudel.com.np/blog/google_oauth">a blog post</a>.
 
 ## 🚀 Local Development
 
@@ -11,7 +13,7 @@ Run the project in your machine locally.
 Clone the repo locally using:
 
 ```sh
-git clone https://github.com/SamipPoudel58/nodejs-ts-google-oauth.git
+git clone https://github.com/joelvaneenwyk/connector-google-oauth-ts.git
 ```
 
 ### Step 2: Install Dependencies

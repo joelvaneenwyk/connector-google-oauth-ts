@@ -10,7 +10,8 @@ router.get("/login", (req, res) => {
 });
 
 router.get("/logout", (req, res) => {
-  req.logout();
+  // #todo #joelvaneenwyk
+  // req.logout();
   res.redirect("/");
 });
 
