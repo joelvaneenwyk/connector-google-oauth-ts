@@ -58,9 +58,9 @@ Inside the src folder create a file `app.ts`
 Now let's add scripts in `package.json`
 
 ```json
-   "start": "node dist/app.js",
-   "dev": "nodemon src/app.ts",
-   "build": "tsc -p ."
+"start": "node dist/app.js",
+"dev": "nodemon src/app.ts",
+"build": "tsc -p ."
 ```
 
 ---
@@ -73,7 +73,7 @@ We will be using credentials and keys that should be secret from the public. We 
 
 Add these variables and their appropriate values.
 
-```
+```bash
 PORT = 3000
 NODE_ENV = development
 MONGO_LOCAL = your_local_db_URI
@@ -121,8 +121,6 @@ if (!MONGO_URI) {
 ```
 
 Now we are ready to create our server.
-
----
 
 ## Setting up the server
 
@@ -217,16 +215,12 @@ So, let's create a `login.ejs` file inside the views folder.
 </html>
 ```
 
----
-
 ## Google Developer Console Setup
 
 Before we continue with our app, we will need to register our app through the Google developer console and get `CLIENT_ID` & `CLIENT_SECRET`. Follow these steps:
 
 1. Visit [Google Developer Console](https://console.cloud.google.com/apis/dashboard)
-
 2. From the navigation bar at the top, create a new project.
-
 3. Now click on `Enable APIs & Services`, scroll down and choose Google+ API and click "Enable".
    ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1634917456938/VfvXiGek6.png)
 
@@ -235,7 +229,7 @@ Before we continue with our app, we will need to register our app through the Go
 5. Under App Information, add your app name, email, and logo (optional)
    ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1634917949086/oUYKhjvfr.png)
 
-6. Under App domain, add application homepage (it can be http://localhost:3000 for now, later you can change it when you have deployed it). Navigate to the bottom of the page add your email in the "Developer contact information" field and click "SAVE AND CONTINUE".
+6. Under App domain, add application homepage (it can be <http://localhost:3000> for now, later you can change it when you have deployed it). Navigate to the bottom of the page add your email in the "Developer contact information" field and click "SAVE AND CONTINUE".
 
 7. You will be directed to the scopes page, click on "Add or Remove Scopes" and check the first two ie. `userinfo.email` & `userinfo.profile`.
    Scope means what data do we want to access from the user's Google account. Here we want just the email and profile, if you need more or less data check the boxes accordingly. Now, save and continue.
